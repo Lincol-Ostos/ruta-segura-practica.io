@@ -36,3 +36,4 @@ Doble clic en `index.html`, o desde la carpeta: `python3 -m http.server 8000` y 
 - Actividades y respuestas correctas: objeto `ACT` (`ok` = índice de la alternativa correcta).
 - Preguntas del examen: arreglo `Q` (`a` = índice de la correcta). El mezclado está en `buildDeck`.
 - Colores: variables en `:root` de `css/styles.css`.
+# ruta-segura-practica.io
