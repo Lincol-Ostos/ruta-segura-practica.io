@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Lincol Ostos">
+<meta name="description" content="Práctica interactiva del curso Fatiga y somnolencia. Created by Lincol Ostos.">
+<title>Práctica Fatiga y Somnolencia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <div class="brand"><b>Ruta Segura</b><span>Práctica del curso Fatiga y somnolencia · material de estudio no oficial</span></div>
+    <div class="modes" role="group" aria-label="Modo">
+      <button id="m-course" aria-pressed="true" data-act="mode" data-v="course">Curso</button>
+      <button id="m-exam" aria-pressed="false" data-act="mode" data-v="exam">Evaluación</button>
+    </div>
+  </header>
+  <div class="stagewrap"><section class="stage" id="stage" aria-live="polite"></section></div>
+</div>
+
+<div class="splash" id="splash" role="dialog" aria-modal="true" aria-labelledby="sp-t">
+  <div class="splash-card">
+    <svg class="sp-mark" viewBox="0 0 48 48" aria-hidden="true"><path d="M3 38 L18 12 L26 26 L32 18 L45 38Z" fill="currentColor" opacity=".92"/><path d="M8 42 Q24 30 40 42" stroke="currentColor" stroke-width="3" fill="none"/></svg>
+    <h1 id="sp-t">Ruta Segura</h1>
+    <p class="sp-sub">Práctica del curso Fatiga y somnolencia</p>
+    <span class="sp-line" aria-hidden="true"></span>
+    <p class="by">Created by <b>Lincol Ostos</b></p>
+    <button class="btn" id="sp-go" type="button">Comenzar</button>
+  </div>
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>
